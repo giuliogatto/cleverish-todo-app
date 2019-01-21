@@ -32,6 +32,14 @@ net.train(self.$store.state.trainingdata, {
 });
 ```
 
+INSTRUCTIONS:
+
+STEP 1: INSERT TRAINING DATA. Insert some activities that you like with a positive Sentiment, and some activities that you don't like with negative Sentiment.
+
+STEP 2: INSERT YOUR TODO LIST. Insert some activities in the ToDo list. Those activities should be similar, but not equal, to the one in the training data. For example try and input 'shopping' with the already provided training data. 
+
+STEP 3: SENTIMENT ANALYSIS. The LSTM Neural Network will try to detect if the new activity will be enjoyable for you (positive ) or not(negative ).
+
 I implemented the ToDo App with Vue and VueX, but it can easily be converted to React/Redux.
 You can find a live demo in here: https://codesandbox.io/s/rjo0qv5ppn
 
